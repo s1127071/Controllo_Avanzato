@@ -58,3 +58,9 @@ Contiene gli esercizi sul Model Predictive Control sviluppati. Comprende sia scr
 
 - **PIPE 4.3.0** per la modellazione grafica delle reti di Petri.
 - **MATLAB R2025b** (con MPC Toolbox) per le analisi GSPN e gli esercizi MPC.
+
+## Autori
+
+- Roberto Dimitri
+- Emanuel Hoxha
+- Matteo Stronati
