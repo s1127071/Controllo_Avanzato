@@ -1,0 +1,3294 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><pnml>
+<net id="Net-One" type="P/T net">
+<token id="Default" enabled="true" red="0" green="0" blue="0"/>
+<labels x="1833" y="1371" width="78" height="54" border="true">
+<text>KO</text>
+</labels>
+<labels x="1496" y="1371" width="78" height="54" border="true">
+<text>OK</text>
+</labels>
+<labels x="1826" y="1116" width="139" height="70" border="true">
+<text>TEST VALIDAZIONE</text>
+</labels>
+<place id="chassi lucidati in macchina">
+<graphics>
+<position x="570.0" y="930.0"/>
+</graphics>
+<name>
+<value>chassi lucidati in macchina</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Chassis 1 assembleggio">
+<graphics>
+<position x="1770.0" y="450.0"/>
+</graphics>
+<name>
+<value>Chassis 1 assembleggio</value>
+<graphics>
+<offset x="-2.0" y="11.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Chassis assemblato ">
+<graphics>
+<position x="1770.0" y="630.0"/>
+</graphics>
+<name>
+<value>Chassis assemblato </value>
+<graphics>
+<offset x="133.28571428571428" y="17.857142857142858"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Chassis finale sul nastro">
+<graphics>
+<position x="1755.0" y="750.0"/>
+</graphics>
+<name>
+<value>Chassis finale sul nastro</value>
+<graphics>
+<offset x="162.0" y="9.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Chassis in macchina">
+<graphics>
+<position x="570.0" y="360.0"/>
+</graphics>
+<name>
+<value>Chassis in macchina</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Chassis in posizione di lucidatura">
+<graphics>
+<position x="570.0" y="780.0"/>
+</graphics>
+<name>
+<value>Chassis in posizione di lucidatura</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Chassis in posizione di presa">
+<graphics>
+<position x="1770.0" y="255.0"/>
+</graphics>
+<name>
+<value>Chassis in posizione di presa</value>
+<graphics>
+<offset x="99.0" y="-21.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Chassis pronti">
+<graphics>
+<position x="570.0" y="510.0"/>
+</graphics>
+<name>
+<value>Chassis pronti</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Deposito chassi ">
+<graphics>
+<position x="570.0" y="1260.0"/>
+</graphics>
+<name>
+<value>Deposito chassi </value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Foglio sim fresato">
+<graphics>
+<position x="810.0" y="360.0"/>
+</graphics>
+<name>
+<value>Foglio sim fresato</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Foglio tastini fresato">
+<graphics>
+<position x="1050.0" y="360.0"/>
+</graphics>
+<name>
+<value>Foglio tastini fresato</value>
+<graphics>
+<offset x="136.0" y="16.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Fogli per chassis">
+<graphics>
+<position x="570.0" y="60.0"/>
+</graphics>
+<name>
+<value>Fogli per chassis</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,4</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Fogli per chassis in macchina">
+<graphics>
+<position x="570.0" y="210.0"/>
+</graphics>
+<name>
+<value>Fogli per chassis in macchina</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Fogli per sim">
+<graphics>
+<position x="810.0" y="60.0"/>
+</graphics>
+<name>
+<value>Fogli per sim</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,4</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Fogli per sim in macchina">
+<graphics>
+<position x="810.0" y="210.0"/>
+</graphics>
+<name>
+<value>Fogli per sim in macchina</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Fogli per tastini">
+<graphics>
+<position x="1035.0" y="60.0"/>
+</graphics>
+<name>
+<value>Fogli per tastini</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,4</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Fogli per tastini in macchina">
+<graphics>
+<position x="1050.0" y="210.0"/>
+</graphics>
+<name>
+<value>Fogli per tastini in macchina</value>
+<graphics>
+<offset x="186.0" y="2.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Limitatore chassis">
+<graphics>
+<position x="360.0" y="840.0"/>
+</graphics>
+<name>
+<value>Limitatore chassis</value>
+<graphics>
+<offset x="83.63636363636363" y="-9.09090909090909"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Limitatore sim">
+<graphics>
+<position x="960.0" y="825.0"/>
+</graphics>
+<name>
+<value>Limitatore sim</value>
+<graphics>
+<offset x="47.0" y="-15.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Limitatore tastini">
+<graphics>
+<position x="1185.0" y="855.0"/>
+</graphics>
+<name>
+<value>Limitatore tastini</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Limitatore Test">
+<graphics>
+<position x="1560.0" y="1155.0"/>
+</graphics>
+<name>
+<value>Limitatore Test</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Limite">
+<graphics>
+<position x="1875.0" y="315.0"/>
+</graphics>
+<name>
+<value>Limite</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Lotto di telefoni da riciclare">
+<graphics>
+<position x="1695.0" y="1470.0"/>
+</graphics>
+<name>
+<value>Lotto di telefoni da riciclare</value>
+<graphics>
+<offset x="165.42857142857142" y="-20.761904761904745"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Macchina fresatura 1 libera">
+<graphics>
+<position x="360.0" y="285.0"/>
+</graphics>
+<name>
+<value>Macchina fresatura 1 libera</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Macchina fresatura 2 libera">
+<graphics>
+<position x="915.0" y="315.0"/>
+</graphics>
+<name>
+<value>Macchina fresatura 2 libera</value>
+<graphics>
+<offset x="102.0" y="-22.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Macchina lucidatura libera">
+<graphics>
+<position x="675.0" y="810.0"/>
+</graphics>
+<name>
+<value>Macchina lucidatura libera</value>
+<graphics>
+<offset x="95.75" y="-7.75"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="net2_Deposito sim">
+<graphics>
+<position x="1500.0" y="645.0"/>
+</graphics>
+<name>
+<value>Deposito sim</value>
+<graphics>
+<offset x="71.0" y="47.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="net2_Deposito tastini">
+<graphics>
+<position x="1545.0" y="570.0"/>
+</graphics>
+<name>
+<value>Deposito tastini</value>
+<graphics>
+<offset x="76.0" y="47.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Operatore separzaione componenti">
+<graphics>
+<position x="930.0" y="1440.0"/>
+</graphics>
+<name>
+<value>Operatore separzaione componenti</value>
+<graphics>
+<offset x="98.0" y="52.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="PCB pronto">
+<graphics>
+<position x="1425.0" y="960.0"/>
+</graphics>
+<name>
+<value>PCB pronto</value>
+<graphics>
+<offset x="-15.0" y="19.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Prenotazione macchina">
+<graphics>
+<position x="660.0" y="645.0"/>
+</graphics>
+<name>
+<value>Prenotazione macchina</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,2</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Robot carico lucidatura">
+<graphics>
+<position x="690.0" y="525.0"/>
+</graphics>
+<name>
+<value>Robot carico lucidatura</value>
+<graphics>
+<offset x="61.0" y="-11.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Robot scarico lucidatura">
+<graphics>
+<position x="675.0" y="1215.0"/>
+</graphics>
+<name>
+<value>Robot scarico lucidatura</value>
+<graphics>
+<offset x="74.0" y="47.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Robot test libero">
+<graphics>
+<position x="1560.0" y="960.0"/>
+</graphics>
+<name>
+<value>Robot test libero</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,1</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Sim in posizione di lucidatura">
+<graphics>
+<position x="810.0" y="780.0"/>
+</graphics>
+<name>
+<value>Sim in posizione di lucidatura</value>
+<graphics>
+<offset x="91.5" y="47.5"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Sim lucidate">
+<graphics>
+<position x="810.0" y="1275.0"/>
+</graphics>
+<name>
+<value>Sim lucidate</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Sim lucidati in macchina">
+<graphics>
+<position x="810.0" y="930.0"/>
+</graphics>
+<name>
+<value>Sim lucidati in macchina</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Sim pronte">
+<graphics>
+<position x="810.0" y="510.0"/>
+</graphics>
+<name>
+<value>Sim pronte</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Tastierini pronti">
+<graphics>
+<position x="1050.0" y="510.0"/>
+</graphics>
+<name>
+<value>Tastierini pronti</value>
+<graphics>
+<offset x="109.0" y="7.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Tastini in posizione di lucidatura">
+<graphics>
+<position x="1050.0" y="780.0"/>
+</graphics>
+<name>
+<value>Tastini in posizione di lucidatura</value>
+<graphics>
+<offset x="202.0" y="3.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Tastini lucidati">
+<graphics>
+<position x="1050.0" y="1260.0"/>
+</graphics>
+<name>
+<value>Tastini lucidati</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Tastini lucidati in macchina">
+<graphics>
+<position x="1050.0" y="930.0"/>
+</graphics>
+<name>
+<value>Tastini lucidati in macchina</value>
+<graphics>
+<offset x="178.0" y="5.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Telefono fine linea">
+<graphics>
+<position x="1650.0" y="1305.0"/>
+</graphics>
+<name>
+<value>Telefono fine linea</value>
+<graphics>
+<offset x="14.0" y="-35.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Telefono ingresso display">
+<graphics>
+<position x="1650.0" y="945.0"/>
+</graphics>
+<name>
+<value>Telefono ingresso display</value>
+<graphics>
+<offset x="167.0" y="10.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<place id="Telefono ingresso test">
+<graphics>
+<position x="1650.0" y="1050.0"/>
+</graphics>
+<name>
+<value>Telefono ingresso test</value>
+<graphics>
+<offset x="166.0" y="19.0"/>
+</graphics>
+</name>
+<initialMarking>
+<value>Default,0</value>
+<graphics>
+<offset x="0.0" y="0.0"/>
+</graphics>
+</initialMarking>
+<capacity>
+<value>0</value>
+</capacity>
+</place>
+<transition id="Asseblaggio display">
+<graphics>
+<position x="1650.0" y="1005.0"/>
+</graphics>
+<name>
+<value>Asseblaggio display</value>
+<graphics>
+<offset x="146.0" y="18.0"/>
+</graphics>
+</name>
+<orientation>
+<value>270</value>
+</orientation>
+<rate>
+<value>0.002</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Assemblaggio ">
+<graphics>
+<position x="1770.0" y="525.0"/>
+</graphics>
+<name>
+<value>Assemblaggio </value>
+<graphics>
+<offset x="-12.428571428571429" y="-0.3214285714285712"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>0.05</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="carico chassis">
+<graphics>
+<position x="570.0" y="705.0"/>
+</graphics>
+<name>
+<value>carico chassis</value>
+<graphics>
+<offset x="-4.0" y="3.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="carico fogli per chassis">
+<graphics>
+<position x="570.0" y="135.0"/>
+</graphics>
+<name>
+<value>carico fogli per chassis</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="carico fogli per sim">
+<graphics>
+<position x="810.0" y="135.0"/>
+</graphics>
+<name>
+<value>carico fogli per sim</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="carico fogli per tastini">
+<graphics>
+<position x="1050.0" y="135.0"/>
+</graphics>
+<name>
+<value>carico fogli per tastini</value>
+<graphics>
+<offset x="145.0" y="21.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="carico sim">
+<graphics>
+<position x="810.0" y="705.0"/>
+</graphics>
+<name>
+<value>carico sim</value>
+<graphics>
+<offset x="-7.0" y="21.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="carico tastini">
+<graphics>
+<position x="1050.0" y="705.0"/>
+</graphics>
+<name>
+<value>carico tastini</value>
+<graphics>
+<offset x="99.0" y="0.0"/>
+</graphics>
+</name>
+<orientation>
+<value>270</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="fresatura chassis">
+<graphics>
+<position x="570.0" y="285.0"/>
+</graphics>
+<name>
+<value>fresatura chassis</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>0.017</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="fresatura sim">
+<graphics>
+<position x="810.0" y="285.0"/>
+</graphics>
+<name>
+<value>fresatura sim</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>0.008</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="fresatura tastini">
+<graphics>
+<position x="1050.0" y="285.0"/>
+</graphics>
+<name>
+<value>fresatura tastini</value>
+<graphics>
+<offset x="121.0" y="15.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>0.008</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="lucidatura chassis">
+<graphics>
+<position x="570.0" y="855.0"/>
+</graphics>
+<name>
+<value>lucidatura chassis</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>0.05</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="lucidatura sim">
+<graphics>
+<position x="810.0" y="855.0"/>
+</graphics>
+<name>
+<value>lucidatura sim</value>
+<graphics>
+<offset x="113.0" y="9.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>0.05</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="lucidatura tastini">
+<graphics>
+<position x="1050.0" y="855.0"/>
+</graphics>
+<name>
+<value>lucidatura tastini</value>
+<graphics>
+<offset x="109.0" y="26.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>0.05</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Presa 1">
+<graphics>
+<position x="1770.0" y="360.0"/>
+</graphics>
+<name>
+<value>Presa 1</value>
+<graphics>
+<offset x="-12.0" y="31.666666666666675"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id=" presa e scarico chassis lucidato">
+<graphics>
+<position x="570.0" y="1005.0"/>
+</graphics>
+<name>
+<value> presa e scarico chassis lucidato</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="presa e scarico sim lucidata">
+<graphics>
+<position x="810.0" y="1005.0"/>
+</graphics>
+<name>
+<value>presa e scarico sim lucidata</value>
+<graphics>
+<offset x="186.0" y="0.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="presa e scarico tastini lucidati">
+<graphics>
+<position x="1050.0" y="1005.0"/>
+</graphics>
+<name>
+<value>presa e scarico tastini lucidati</value>
+<graphics>
+<offset x="128.0" y="38.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Presa pezzo">
+<graphics>
+<position x="1650.0" y="900.0"/>
+</graphics>
+<name>
+<value>Presa pezzo</value>
+<graphics>
+<offset x="108.5" y="19.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Produzione PCB">
+<graphics>
+<position x="1395.0" y="1095.0"/>
+</graphics>
+<name>
+<value>Produzione PCB</value>
+<graphics>
+<offset x="-1.3333333333333315" y="-2.999999999999993"/>
+</graphics>
+</name>
+<orientation>
+<value>270</value>
+</orientation>
+<rate>
+<value>0.007</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Riciclo lotto da 2">
+<graphics>
+<position x="1290.0" y="15.0"/>
+</graphics>
+<name>
+<value>Riciclo lotto da 2</value>
+<graphics>
+<offset x="115.71428571428572" y="38.21428571428572"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Scarico">
+<graphics>
+<position x="1755.0" y="705.0"/>
+</graphics>
+<name>
+<value>Scarico</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="scarico chassis">
+<graphics>
+<position x="570.0" y="435.0"/>
+</graphics>
+<name>
+<value>scarico chassis</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="scarico sim">
+<graphics>
+<position x="810.0" y="435.0"/>
+</graphics>
+<name>
+<value>scarico sim</value>
+<graphics>
+<offset x="-5.0" y="35.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="scarico tastini">
+<graphics>
+<position x="1050.0" y="435.0"/>
+</graphics>
+<name>
+<value>scarico tastini</value>
+<graphics>
+<offset x="109.0" y="17.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Scorrimento nastro">
+<graphics>
+<position x="1680.0" y="255.0"/>
+</graphics>
+<name>
+<value>Scorrimento nastro</value>
+<graphics>
+<offset x="40.0" y="-20.0"/>
+</graphics>
+</name>
+<orientation>
+<value>0</value>
+</orientation>
+<rate>
+<value>0.1</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="separazione sim">
+<graphics>
+<position x="810.0" y="1350.0"/>
+</graphics>
+<name>
+<value>separazione sim</value>
+<graphics>
+<offset x="-11.25" y="18.75"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>0.007</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="separazione tastini">
+<graphics>
+<position x="1050.0" y="1350.0"/>
+</graphics>
+<name>
+<value>separazione tastini</value>
+<graphics>
+<offset x="140.0" y="18.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>0.007</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="test">
+<graphics>
+<position x="1650.0" y="1110.0"/>
+</graphics>
+<name>
+<value>test</value>
+<graphics>
+<offset x="64.0" y="18.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>0.002</value>
+</rate>
+<timed>
+<value>true</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Test KO">
+<graphics>
+<position x="1725.0" y="1380.0"/>
+</graphics>
+<name>
+<value>Test KO</value>
+<graphics>
+<offset x="74.0" y="18.0"/>
+</graphics>
+</name>
+<orientation>
+<value>270</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<transition id="Test OK">
+<graphics>
+<position x="1650.0" y="1380.0"/>
+</graphics>
+<name>
+<value>Test OK</value>
+<graphics>
+<offset x="-21.0" y="-1.0"/>
+</graphics>
+</name>
+<orientation>
+<value>90</value>
+</orientation>
+<rate>
+<value>1.0</value>
+</rate>
+<timed>
+<value>false</value>
+</timed>
+<infiniteServer>
+<value>false</value>
+</infiniteServer>
+<priority>
+<value>1</value>
+</priority>
+</transition>
+<arc id="Asseblaggio display to Robot test libero" source="Asseblaggio display" target="Robot test libero">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1647" y="1016" curvePoint="false"/>
+<arcpath id="001" x="1584" y="979" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Asseblaggio display to Telefono ingresso test" source="Asseblaggio display" target="Telefono ingresso test">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1662" y="1022" curvePoint="false"/>
+<arcpath id="001" x="1662" y="1047" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Assemblaggio batteria 1 to Chassis con batteria 1" source="Assemblaggio " target="Chassis assemblato ">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1781" y="541" curvePoint="false"/>
+<arcpath id="001" x="1781" y="627" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Buffer pezzi chassis to carico chassis" source="Limitatore chassis" target="carico chassis">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="384" y="844" curvePoint="false"/>
+<arcpath id="001" x="576" y="721" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="carico chassis to Robot carico lucidatura" source="carico chassis" target="Robot carico lucidatura">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="576" y="711" curvePoint="false"/>
+<arcpath id="001" x="618" y="648" curvePoint="false"/>
+<arcpath id="002" x="692" y="548" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="carico fogli per chassis to Fogli per chassis in macchina" source="carico fogli per chassis" target="Fogli per chassis in macchina">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="586" y="152" curvePoint="false"/>
+<arcpath id="001" x="581" y="207" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="carico sim to Robot carico lucidatura" source="carico sim" target="Robot carico lucidatura">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="813" y="711" curvePoint="false"/>
+<arcpath id="001" x="698" y="628" curvePoint="false"/>
+<arcpath id="002" x="701" y="551" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="carico tastierini to Robot carico lucidatura" source="carico tastini" target="Robot carico lucidatura">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1047" y="716" curvePoint="false"/>
+<arcpath id="001" x="888" y="658" curvePoint="false"/>
+<arcpath id="002" x="714" y="545" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Chassis 1 assembleggio to Assemblaggio batteria 1" source="Chassis 1 assembleggio" target="Assemblaggio ">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1781" y="476" curvePoint="false"/>
+<arcpath id="001" x="1781" y="531" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Chassis assemblato 1 to Scarico 1" source="Chassis assemblato " target="Scarico">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1778" y="656" curvePoint="false"/>
+<arcpath id="001" x="1766" y="711" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Chassis finale sul nastro to Presa pezzo" source="Chassis finale sul nastro" target="Presa pezzo">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1758" y="774" curvePoint="false"/>
+<arcpath id="001" x="1661" y="906" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Chassis in macchina to scarico chassis" source="Chassis in macchina" target="scarico chassis">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="581" y="386" curvePoint="false"/>
+<arcpath id="001" x="586" y="442" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Chassis in posizione di lucidatura to carico sim" source="Chassis in posizione di lucidatura" target="carico sim">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="596" y="787" curvePoint="false"/>
+<arcpath id="001" x="806" y="717" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="Chassis in posizione di lucidatura to carico tastierini" source="Chassis in posizione di lucidatura" target="carico tastini">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="595" y="786" curvePoint="false"/>
+<arcpath id="001" x="708" y="738" curvePoint="false"/>
+<arcpath id="002" x="1047" y="716" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="Chassis in posizione di presa to Presa 1" source="Chassis in posizione di presa" target="Presa 1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1781" y="281" curvePoint="false"/>
+<arcpath id="001" x="1781" y="366" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Chassis pronti to carico chassis" source="Chassis pronti" target="carico chassis">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="581" y="536" curvePoint="false"/>
+<arcpath id="001" x="571" y="711" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Deposito chassi  to Presa robot chassis" source="Deposito chassi " target="Produzione PCB">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="581" y="1286" curvePoint="false"/>
+<arcpath id="001" x="574" y="1508" curvePoint="false"/>
+<arcpath id="002" x="1361" y="1508" curvePoint="false"/>
+<arcpath id="003" x="1407" y="1112" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Fogli per chassis in macchina to fresatura chassis" source="Fogli per chassis in macchina" target="fresatura chassis">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="581" y="236" curvePoint="false"/>
+<arcpath id="001" x="581" y="291" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Fogli per chassis to carico fogli per chassis" source="Fogli per chassis" target="carico fogli per chassis">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="581" y="86" curvePoint="false"/>
+<arcpath id="001" x="581" y="141" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Fogli per sim to carico fogli per sim" source="Fogli per sim" target="carico fogli per sim">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="821" y="86" curvePoint="false"/>
+<arcpath id="001" x="821" y="141" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Fogli per tastini to carico fogli per tastini" source="Fogli per tastini" target="carico fogli per tastini">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1049" y="86" curvePoint="false"/>
+<arcpath id="001" x="1061" y="141" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="fresatura chassis to Chassis in macchina" source="fresatura chassis" target="Chassis in macchina">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="581" y="301" curvePoint="false"/>
+<arcpath id="001" x="581" y="357" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Limitatore sim to carico sim" source="Limitatore sim" target="carico sim">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="960" y="827" curvePoint="false"/>
+<arcpath id="001" x="826" y="722" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Limitatore tastini to carico tastierini" source="Limitatore tastini" target="carico tastini">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1186" y="855" curvePoint="false"/>
+<arcpath id="001" x="1067" y="722" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Limitatore Test to test" source="Limitatore Test" target="test">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1584" y="1159" curvePoint="false"/>
+<arcpath id="001" x="1646" y="1122" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Limite 1 to Presa 1" source="Limite" target="Presa 1">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1873" y="333" curvePoint="false"/>
+<arcpath id="001" x="1796" y="372" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Lotto di telefoni da riciclare to Riciclo lotto da 4" source="Lotto di telefoni da riciclare" target="Riciclo lotto da 2">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1692" y="1481" curvePoint="false"/>
+<arcpath id="001" x="1288" y="1472" curvePoint="false"/>
+<arcpath id="002" x="1302" y="42" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Macchina fresatura 1 libera to carico fogli per chassis" source="Macchina fresatura 1 libera" target="carico fogli per chassis">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="384" y="288" curvePoint="false"/>
+<arcpath id="001" x="576" y="151" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Macchina fresatura 2 libera to carico fogli per tastini" source="Macchina fresatura 2 libera" target="carico fogli per tastini">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="936" y="315" curvePoint="false"/>
+<arcpath id="001" x="1056" y="151" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Macchina lucidatura libera to lucidatura chassis" source="Macchina lucidatura libera" target="lucidatura chassis">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="673" y="828" curvePoint="false"/>
+<arcpath id="001" x="596" y="867" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Macchina lucidatura libera to lucidatura sim" source="Macchina lucidatura libera" target="lucidatura sim">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="701" y="827" curvePoint="false"/>
+<arcpath id="001" x="806" y="867" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Macchina lucidatura libera to lucidatura tastierini" source="Macchina lucidatura libera" target="lucidatura tastini">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="701" y="823" curvePoint="false"/>
+<arcpath id="001" x="1046" y="867" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="net2_Deposito sim to Assemblaggio 1" source="net2_Deposito sim" target="Assemblaggio ">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1525" y="650" curvePoint="false"/>
+<arcpath id="001" x="1766" y="537" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="net2_Deposito tastini to Assemblaggio 1" source="net2_Deposito tastini" target="Assemblaggio ">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1571" y="578" curvePoint="false"/>
+<arcpath id="001" x="1766" y="537" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Operatore separzaione componenti to separazione sim" source="Operatore separzaione componenti" target="separazione sim">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="929" y="1443" curvePoint="false"/>
+<arcpath id="001" x="829" y="1367" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Operatore separzaione componenti to separazione tastini" source="Operatore separzaione componenti" target="separazione tastini">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="954" y="1443" curvePoint="false"/>
+<arcpath id="001" x="1055" y="1366" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P34 to T24" source="Fogli per sim in macchina" target="fresatura sim">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="821" y="236" curvePoint="false"/>
+<arcpath id="001" x="821" y="291" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P35 to T25" source="Foglio sim fresato" target="scarico sim">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="821" y="386" curvePoint="false"/>
+<arcpath id="001" x="816" y="441" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P36 to T23" source="Macchina fresatura 2 libera" target="carico fogli per sim">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="919" y="314" curvePoint="false"/>
+<arcpath id="001" x="826" y="152" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P37 to T27" source="Fogli per tastini in macchina" target="fresatura tastini">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1061" y="236" curvePoint="false"/>
+<arcpath id="001" x="1061" y="291" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P38 to T28" source="Foglio tastini fresato" target="scarico tastini">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1061" y="386" curvePoint="false"/>
+<arcpath id="001" x="1066" y="442" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P43 to T30" source="Sim in posizione di lucidatura" target="lucidatura sim">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="821" y="806" curvePoint="false"/>
+<arcpath id="001" x="821" y="861" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P44 to T31" source="Sim lucidati in macchina" target="presa e scarico sim lucidata">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="821" y="956" curvePoint="false"/>
+<arcpath id="001" x="824" y="1012" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P46 to T33" source="Chassis in posizione di lucidatura" target="lucidatura chassis">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="581" y="806" curvePoint="false"/>
+<arcpath id="001" x="581" y="861" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P47 to T34" source="chassi lucidati in macchina" target=" presa e scarico chassis lucidato">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="581" y="956" curvePoint="false"/>
+<arcpath id="001" x="578" y="1011" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P49 to T36" source="Tastini in posizione di lucidatura" target="lucidatura tastini">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1061" y="806" curvePoint="false"/>
+<arcpath id="001" x="1061" y="861" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P50 to T37" source="Tastini lucidati in macchina" target="presa e scarico tastini lucidati">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1061" y="956" curvePoint="false"/>
+<arcpath id="001" x="1060" y="1011" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P79 to T51" source="Telefono fine linea" target="Test OK">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1661" y="1331" curvePoint="false"/>
+<arcpath id="001" x="1666" y="1387" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P79 to T52" source="Telefono fine linea" target="Test KO">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1672" y="1327" curvePoint="false"/>
+<arcpath id="001" x="1732" y="1386" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="P81 to T50" source="Robot test libero" target="Presa pezzo">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1584" y="964" curvePoint="false"/>
+<arcpath id="001" x="1656" y="916" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="PCB pronto to Scorrimento nastro" source="PCB pronto" target="Scorrimento nastro">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1437" y="957" curvePoint="false"/>
+<arcpath id="001" x="1438" y="273" curvePoint="false"/>
+<arcpath id="002" x="1686" y="267" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Prenotazione macchina to carico chassis" source="Prenotazione macchina" target="carico chassis">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="659" y="665" curvePoint="false"/>
+<arcpath id="001" x="591" y="712" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Prenotazione macchina to carico sim" source="Prenotazione macchina" target="carico sim">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="685" y="663" curvePoint="false"/>
+<arcpath id="001" x="806" y="717" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Prenotazione macchina to carico tastierini" source="Prenotazione macchina" target="carico tastini">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="686" y="659" curvePoint="false"/>
+<arcpath id="001" x="1047" y="716" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Presa 1 to Chassis 1 assembleggio" source="Presa 1" target="Chassis 1 assembleggio">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1781" y="376" curvePoint="false"/>
+<arcpath id="001" x="1781" y="447" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id=" presa e scarico chassis lucidato to Deposito chassi " source=" presa e scarico chassis lucidato" target="Deposito chassi ">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="575" y="1021" curvePoint="false"/>
+<arcpath id="001" x="581" y="1257" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id=" presa e scarico chassis lucidato to Macchina lucidatura libera" source=" presa e scarico chassis lucidato" target="Macchina lucidatura libera">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="590" y="1012" curvePoint="false"/>
+<arcpath id="001" x="679" y="835" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id=" presa e scarico chassis lucidato to Prenotazione macchina" source=" presa e scarico chassis lucidato" target="Prenotazione macchina">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="584" y="1012" curvePoint="false"/>
+<arcpath id="001" x="668" y="671" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id=" presa e scarico chassis lucidato to Robot scarico lucidatura" source=" presa e scarico chassis lucidato" target="Robot scarico lucidatura">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="582" y="1022" curvePoint="false"/>
+<arcpath id="001" x="680" y="1213" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="presa e scarico sim lucidata to Macchina lucidatura libera" source="presa e scarico sim lucidata" target="Macchina lucidatura libera">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="812" y="1011" curvePoint="false"/>
+<arcpath id="001" x="695" y="834" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="presa e scarico sim lucidata to Prenotazione macchina" source="presa e scarico sim lucidata" target="Prenotazione macchina">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="818" y="1011" curvePoint="false"/>
+<arcpath id="001" x="677" y="670" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="presa e scarico sim lucidata to Robot scarico lucidatura" source="presa e scarico sim lucidata" target="Robot scarico lucidatura">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="822" y="1022" curvePoint="false"/>
+<arcpath id="001" x="695" y="1214" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="presa e scarico sim lucidata to Sim lucidate" source="presa e scarico sim lucidata" target="Sim lucidate">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="829" y="1022" curvePoint="false"/>
+<arcpath id="001" x="822" y="1272" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="presa e scarico tastini lucidati to Macchina lucidatura libera" source="presa e scarico tastini lucidati" target="Macchina lucidatura libera">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1046" y="1017" curvePoint="false"/>
+<arcpath id="001" x="700" y="829" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="presa e scarico tastini lucidati to Prenotazione macchina" source="presa e scarico tastini lucidati" target="Prenotazione macchina">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1053" y="1011" curvePoint="false"/>
+<arcpath id="001" x="702" y="808" curvePoint="false"/>
+<arcpath id="002" x="674" y="671" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="presa e scarico tastini lucidati to Robot scarico lucidatura" source="presa e scarico tastini lucidati" target="Robot scarico lucidatura">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1046" y="1017" curvePoint="false"/>
+<arcpath id="001" x="699" y="1219" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="presa e scarico tastini lucidati to Tastini lucidati" source="presa e scarico tastini lucidati" target="Tastini lucidati">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1061" y="1021" curvePoint="false"/>
+<arcpath id="001" x="1061" y="1257" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Presa robot chassis to Chassis in movimento" source="Produzione PCB" target="PCB pronto">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1407" y="1102" curvePoint="false"/>
+<arcpath id="001" x="1433" y="986" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="presa sim lucidata to Limitatore sim" source="presa e scarico sim lucidata" target="Limitatore sim">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="830" y="1012" curvePoint="false"/>
+<arcpath id="001" x="962" y="848" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="presa tastini lucidati to Limitatore tastini" source="presa e scarico tastini lucidati" target="Limitatore tastini">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1067" y="1012" curvePoint="false"/>
+<arcpath id="001" x="1187" y="878" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Riciclo lotto da 4 to Fogli per chassis" source="Riciclo lotto da 2" target="Fogli per chassis">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1297" y="21" curvePoint="false"/>
+<arcpath id="001" x="568" y="2" curvePoint="false"/>
+<arcpath id="002" x="579" y="57" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Riciclo lotto da 4 to Fogli per sim" source="Riciclo lotto da 2" target="Fogli per sim">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1296" y="28" curvePoint="false"/>
+<arcpath id="001" x="836" y="70" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Riciclo lotto da 4 to Fogli per tastini" source="Riciclo lotto da 2" target="Fogli per tastini">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1296" y="35" curvePoint="false"/>
+<arcpath id="001" x="1061" y="69" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Robot carico lucidatura to carico chassis" source="Robot carico lucidatura" target="carico chassis">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="693" y="549" curvePoint="false"/>
+<arcpath id="001" x="581" y="711" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Robot carico lucidatura to carico sim" source="Robot carico lucidatura" target="carico sim">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="710" y="549" curvePoint="false"/>
+<arcpath id="001" x="820" y="711" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Robot carico lucidatura to carico tastierini" source="Robot carico lucidatura" target="carico tastini">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="715" y="543" curvePoint="false"/>
+<arcpath id="001" x="1047" y="716" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Robot scarico lucidatura to  presa chassis lucidato" source="Robot scarico lucidatura" target=" presa e scarico chassis lucidato">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="680" y="1213" curvePoint="false"/>
+<arcpath id="001" x="589" y="1022" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Robot scarico lucidatura to presa sim lucidata" source="Robot scarico lucidatura" target="presa e scarico sim lucidata">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="694" y="1214" curvePoint="false"/>
+<arcpath id="001" x="815" y="1021" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Robot scarico lucidatura to presa tastini lucidati" source="Robot scarico lucidatura" target="presa e scarico tastini lucidati">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="698" y="1216" curvePoint="false"/>
+<arcpath id="001" x="891" y="1038" curvePoint="false"/>
+<arcpath id="002" x="1046" y="1017" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Scarico 1 to Chassis finale sul nastro" source="Scarico" target="Chassis finale sul nastro">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1766" y="721" curvePoint="false"/>
+<arcpath id="001" x="1766" y="747" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Scarico 1 to Limite 1" source="Scarico" target="Limite">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1781" y="717" curvePoint="false"/>
+<arcpath id="001" x="1924" y="724" curvePoint="false"/>
+<arcpath id="002" x="1962" y="322" curvePoint="false"/>
+<arcpath id="003" x="1901" y="326" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id=" scarico chassis lucidati to Buffer pezzi chassis" source=" presa e scarico chassis lucidato" target="Limitatore chassis">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="572" y="1011" curvePoint="false"/>
+<arcpath id="001" x="383" y="861" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="scarico chassis to Chassis pronti" source="scarico chassis" target="Chassis pronti">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="581" y="451" curvePoint="false"/>
+<arcpath id="001" x="581" y="507" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="scarico chassis to Macchina fresatura 1 libera" source="scarico chassis" target="Macchina fresatura 1 libera">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="576" y="441" curvePoint="false"/>
+<arcpath id="001" x="384" y="305" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="scarico sim to Sim pronte" source="scarico sim" target="Sim pronte">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="821" y="451" curvePoint="false"/>
+<arcpath id="001" x="821" y="507" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="scarico tastierini to Macchina fresatura 2 libera" source="scarico tastini" target="Macchina fresatura 2 libera">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1056" y="441" curvePoint="false"/>
+<arcpath id="001" x="938" y="336" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="scarico tastierini to Tastierini pronti" source="scarico tastini" target="Tastierini pronti">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1061" y="451" curvePoint="false"/>
+<arcpath id="001" x="1061" y="507" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Scorrimento nastro to Chassis in posizione di presa" source="Scorrimento nastro" target="Chassis in posizione di presa">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1696" y="267" curvePoint="false"/>
+<arcpath id="001" x="1767" y="267" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="separazione sim to net2_Deposito sim" source="separazione sim" target="net2_Deposito sim">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="815" y="1366" curvePoint="false"/>
+<arcpath id="001" x="791" y="1498" curvePoint="false"/>
+<arcpath id="002" x="1174" y="1498" curvePoint="false"/>
+<arcpath id="003" x="1268" y="788" curvePoint="false"/>
+<arcpath id="004" x="1498" y="664" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="separazione sim to Operatore separzaione componenti" source="separazione sim" target="Operatore separzaione componenti">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="822" y="1367" curvePoint="false"/>
+<arcpath id="001" x="854" y="1474" curvePoint="false"/>
+<arcpath id="002" x="927" y="1455" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="separazione tastini to net2_Deposito tastini" source="separazione tastini" target="net2_Deposito tastini">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1069" y="1367" curvePoint="false"/>
+<arcpath id="001" x="1048" y="1418" curvePoint="false"/>
+<arcpath id="002" x="1158" y="1448" curvePoint="false"/>
+<arcpath id="003" x="1251" y="768" curvePoint="false"/>
+<arcpath id="004" x="1544" y="589" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="separazione tastini to Operatore separzaione componenti" source="separazione tastini" target="Operatore separzaione componenti">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1062" y="1367" curvePoint="false"/>
+<arcpath id="001" x="1008" y="1484" curvePoint="false"/>
+<arcpath id="002" x="955" y="1458" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Sim in posizione di lucidatura to carico chassis" source="Sim in posizione di lucidatura" target="carico chassis">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="807" y="787" curvePoint="false"/>
+<arcpath id="001" x="548" y="708" curvePoint="false"/>
+<arcpath id="002" x="566" y="717" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="Sim in posizione di lucidatura to carico tastierini" source="Sim in posizione di lucidatura" target="carico tastini">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="835" y="786" curvePoint="false"/>
+<arcpath id="001" x="1008" y="718" curvePoint="false"/>
+<arcpath id="002" x="1047" y="716" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="Sim lucidate to separazione sim" source="Sim lucidate" target="separazione sim">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="821" y="1301" curvePoint="false"/>
+<arcpath id="001" x="821" y="1356" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Sim pronte to carico sim" source="Sim pronte" target="carico sim">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="822" y="536" curvePoint="false"/>
+<arcpath id="001" x="827" y="712" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T23 to P34" source="carico fogli per sim" target="Fogli per sim in macchina">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="816" y="151" curvePoint="false"/>
+<arcpath id="001" x="820" y="207" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T24 to P35" source="fresatura sim" target="Foglio sim fresato">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="821" y="301" curvePoint="false"/>
+<arcpath id="001" x="821" y="357" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T25 to P36" source="scarico sim" target="Macchina fresatura 2 libera">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="826" y="442" curvePoint="false"/>
+<arcpath id="001" x="917" y="338" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T26 to P37" source="carico fogli per tastini" target="Fogli per tastini in macchina">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1066" y="152" curvePoint="false"/>
+<arcpath id="001" x="1063" y="207" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T27 to P38" source="fresatura tastini" target="Foglio tastini fresato">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1061" y="301" curvePoint="false"/>
+<arcpath id="001" x="1061" y="357" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T29 to P43" source="carico sim" target="Sim in posizione di lucidatura">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="816" y="721" curvePoint="false"/>
+<arcpath id="001" x="820" y="777" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T30 to P44" source="lucidatura sim" target="Sim lucidati in macchina">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="821" y="871" curvePoint="false"/>
+<arcpath id="001" x="821" y="927" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T32 to P46" source="carico chassis" target="Chassis in posizione di lucidatura">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="586" y="722" curvePoint="false"/>
+<arcpath id="001" x="583" y="777" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T33 to P47" source="lucidatura chassis" target="chassi lucidati in macchina">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="581" y="871" curvePoint="false"/>
+<arcpath id="001" x="581" y="927" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T35 to P49" source="carico tastini" target="Tastini in posizione di lucidatura">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1057" y="721" curvePoint="false"/>
+<arcpath id="001" x="1061" y="777" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T36 to P50" source="lucidatura tastini" target="Tastini lucidati in macchina">
+<graphics/>
+<inscription>
+<value>Default,2</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1061" y="871" curvePoint="false"/>
+<arcpath id="001" x="1061" y="927" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T50 to P82" source="Presa pezzo" target="Telefono ingresso display">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1666" y="917" curvePoint="false"/>
+<arcpath id="001" x="1663" y="942" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T51 to Lotto di telefoni da riciclare" source="Test OK" target="Lotto di telefoni da riciclare">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1661" y="1396" curvePoint="false"/>
+<arcpath id="001" x="1699" y="1468" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T51 to P78" source="Test OK" target="Limitatore Test">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1656" y="1386" curvePoint="false"/>
+<arcpath id="001" x="1548" y="1261" curvePoint="false"/>
+<arcpath id="002" x="1568" y="1181" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T52 to Lotto di telefoni da riciclare" source="Test KO" target="Lotto di telefoni da riciclare">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1737" y="1397" curvePoint="false"/>
+<arcpath id="001" x="1712" y="1467" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="T52 to P78" source="Test KO" target="Limitatore Test">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1742" y="1387" curvePoint="false"/>
+<arcpath id="001" x="1711" y="1171" curvePoint="false"/>
+<arcpath id="002" x="1586" y="1167" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Tastierini in posizione di lucidatura to carico chassis" source="Tastini in posizione di lucidatura" target="carico chassis">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="1047" y="788" curvePoint="false"/>
+<arcpath id="001" x="878" y="748" curvePoint="false"/>
+<arcpath id="002" x="608" y="688" curvePoint="false"/>
+<arcpath id="003" x="586" y="712" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="Tastierini in posizione di lucidatura to carico sim" source="Tastini in posizione di lucidatura" target="carico sim">
+<graphics/>
+<inscription>
+<value/>
+<graphics/>
+</inscription>
+<tagged>
+<value/>
+</tagged>
+<arcpath id="000" x="1047" y="787" curvePoint="false"/>
+<arcpath id="001" x="836" y="717" curvePoint="false"/>
+<type value="inhibitor"/>
+</arc>
+<arc id="Tastierini pronti to carico tastierini" source="Tastierini pronti" target="carico tastini">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1062" y="537" curvePoint="false"/>
+<arcpath id="001" x="1062" y="712" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Tastini lucidati to separazione tastini" source="Tastini lucidati" target="separazione tastini">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1061" y="1286" curvePoint="false"/>
+<arcpath id="001" x="1061" y="1356" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Telefono ingresso display to Asseblaggio display" source="Telefono ingresso display" target="Asseblaggio display">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1662" y="971" curvePoint="false"/>
+<arcpath id="001" x="1662" y="1012" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="Telefono ingresso test to test" source="Telefono ingresso test" target="test">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1661" y="1076" curvePoint="false"/>
+<arcpath id="001" x="1661" y="1116" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+<arc id="test to Telefono fine linea" source="test" target="Telefono fine linea">
+<graphics/>
+<inscription>
+<value>Default,1</value>
+<graphics/>
+</inscription>
+<tagged>
+<value>false</value>
+</tagged>
+<arcpath id="000" x="1661" y="1126" curvePoint="false"/>
+<arcpath id="001" x="1661" y="1302" curvePoint="false"/>
+<type value="normal"/>
+</arc>
+</net>
+</pnml>
