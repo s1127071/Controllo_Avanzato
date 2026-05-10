@@ -24,7 +24,8 @@ Gli esercizi partono da sistemi semplici (gestiti via codice MATLAB con simulazi
 Controllo_Avanzato/
 ├─ Reti_di_Petri               
 ├─ Matlab_GSPN               
-├─ Codici_e_Sessioni_Matlab_MPC              
+├─ Codici_e_Sessioni_Matlab_MPC
+├─ Relazione_e_PresentazioneIniziale           
 └─ README.md
 ```
 
@@ -53,6 +54,10 @@ Contiene la pipeline di analisi della rete:
 ### Codici_e_Sessioni_Matlab_MPC
 
 Contiene gli esercizi sul Model Predictive Control sviluppati. Comprende sia script MATLAB autonomi (per gli esercizi piu' semplici, in cui il controllore e' implementato a mano) sia sessioni del MPC Designer Toolbox (per gli esercizi piu' avanzati, in cui il controllore e' progettato graficamente e poi simulato). Gli esercizi sono numerati progressivamente da uno a diciannove e affiancano sistemi sintetici a casi di studio classici come il reattore CSTR e i sistemi di gestione di serbatoi.
+
+### Relazione_e_PresentazioneIniziale
+
+Contiene la relazione finale del progetto e la presentazione iniziale del processo produttivo modellato attraverso Reti di Petri
 
 ## Strumenti utilizzati
 
