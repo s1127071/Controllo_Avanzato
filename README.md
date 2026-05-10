@@ -57,7 +57,7 @@ Contiene gli esercizi sul Model Predictive Control sviluppati. Comprende sia scr
 
 ### Relazione_e_PresentazioneIniziale
 
-Contiene la relazione finale del progetto e la presentazione iniziale del processo produttivo modellato attraverso Reti di Petri
+Contiene la relazione finale del progetto e la presentazione iniziale del processo produttivo modellato attraverso Reti di Petri.
 
 ## Strumenti utilizzati
 
