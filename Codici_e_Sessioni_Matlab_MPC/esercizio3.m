@@ -74,31 +74,32 @@ y_simulata = zeros(1, length(time_sim));
 u_simulata = zeros(1, length(time_sim));
 
 % Condizioni iniziali per la simulazione
-y_simulata(1) = y_precedente;
-y_simulata(2) = y_attuale;
-u_simulata(1) = u_precedente;
+y_simulata(1) = y_precedente;             
+u_simulata(1) = u_precedente;             
+y_simulata(2) = y_attuale;                 
 u_simulata(2) = u_hat;
 
 % Simulazione MPC
 lambda = exp(-Ts/Tref); 
 for k = 3:length(time_sim)
-    eps_loop = set_point - y_simulata(k-1);
+   
+    y_simulata(k) = 0.65 * y_simulata(k-1) + 1.8 * u_simulata(k-1);
+
+    eps_loop = set_point - y_simulata(k);
     T_loop = zeros(c, 1);
     for i = 1:c
         T_loop(i) = set_point - eps_loop * (lambda^P(i));
     end
-    
+
     Yf_loop = zeros(c, 1);
-    yl_temp = y_simulata(k-1);
+    yl_temp = y_simulata(k);
     for i = 1:Hp
         yl_temp = 0.65 * yl_temp + 1.8 * u_simulata(k-1);
         Yf_loop(i) = yl_temp;
     end
-    
+
     DU_loop = Theta \ (T_loop - Yf_loop);
     u_simulata(k) = u_simulata(k-1) + DU_loop(1);
-    
-    y_simulata(k) = 0.65 * y_simulata(k-1) + 1.8 * u_simulata(k);
 end
 
 % Creazione dei grafici

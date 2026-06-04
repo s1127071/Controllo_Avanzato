@@ -59,40 +59,36 @@ y_k1 = 0.65*y_attuale + 1.8*u_hat;
 fprintf('y_predetta(k+1) = %.4f\n', y_k1);
 
 % Simulazione per i grafici
-time_sim = -2:Ts:20; % tempo di simulazione
+time_sim = -2:Ts:20;
 y_simulata = zeros(1, length(time_sim));
 u_simulata = zeros(1, length(time_sim));
 
-% Condizioni iniziali per la simulazione
-y_simulata(1) = y_precedente;
-y_simulata(2) = y_attuale;
-u_simulata(1) = u_precedente;
-u_simulata(2) = u_hat;
+% Condizioni iniziali
+y_simulata(1) = y_precedente;             
+u_simulata(1) = u_precedente;             
+y_simulata(2) = y_attuale;                 
+u_simulata(2) = u_hat;                     
 
-% Simulazione MPC
+
 for k = 3:length(time_sim)
-    % Applicazione MPC ricorsivamente
-    eps = set_point - y_simulata(k-1); 
     
+    y_simulata(k) = 0.65*y_simulata(k-1) + 1.8*u_simulata(k-1);
+
+    eps = set_point - y_simulata(k);
     if Tref == 0
         r_k = set_point;
     else
         r_k = set_point - eps*exp(-Hp*Ts/Tref);
     end
-    
-    % Risposta libera
+
     y_free = zeros(1, Hp);
-    y_free(1) = 0.65*y_simulata(k-1) + 1.8*u_simulata(k-1);
+    y_free(1) = 0.65*y_simulata(k) + 1.8*u_simulata(k-1);
     for i = 2:Hp
         y_free(i) = 0.65*y_free(i-1) + 1.8*u_simulata(k-1);
     end
-    
-    % Ingresso ottimo
+
     delta_u = (r_k - y_free(Hp)) / y_step_finale;
     u_simulata(k) = u_simulata(k-1) + delta_u;
-    
-    % Aggiornamento dell'uscita
-    y_simulata(k) = 0.65*y_simulata(k-1) + 1.8*u_simulata(k);
 end
 
 % Creazione grafici
