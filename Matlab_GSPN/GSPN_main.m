@@ -16,7 +16,7 @@ disp('Calcolo grafo di raggiungibilita...')
 
 list = m_ini;
 Ragg = [];
-[list, Ragg] = Calcola_Marc_Ragg_leggero(m_ini, list, Ragg, I, pre, H, t_pr);
+[list, Ragg] = Calcola_Marc_Ragg(m_ini, list, Ragg, I, pre, H, t_pr);
 [ns, ~] = size(Ragg);
 fprintf('Numero di stati: %d\n', ns);
 
